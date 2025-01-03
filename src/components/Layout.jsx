@@ -1,10 +1,11 @@
 import React from 'react'
 import { Outlet, NavLink } from 'react-router-dom'
 import './../App.css'
+
 function Layout() {
   return (
     <>
-    
+
     <header>
     <ul>
     <li><NavLink  style={{color: 'inherit', textDecoration: 'none'}} to='/'>Homepage</NavLink></li>
